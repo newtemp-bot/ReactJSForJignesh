@@ -6,6 +6,7 @@ const Counter = () => {
     <div>
         {count==='Hello'?(
       <p>true</p>
+      
       ):(<p>false</p>)}
       <div>
         <p>Some random content in the second div.</p>
