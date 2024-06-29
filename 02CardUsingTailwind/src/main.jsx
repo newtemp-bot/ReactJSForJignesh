@@ -8,8 +8,8 @@ let jadu = "random";
 const carInfo = { name: "Ford", model: "Mustang" };
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-    {/*<App />*/}
-    <PropsEx brand="BMW" random={1321} carInfo={carInfo}/>
-    <PropsEx brand="Tata" jadu={jadu}/>
+    <App />
+    {/* <PropsEx brand="BMW" random={1321} carInfo={carInfo}/>
+    <PropsEx brand="Tata" jadu={jadu}/> */}
   </>,
 )
