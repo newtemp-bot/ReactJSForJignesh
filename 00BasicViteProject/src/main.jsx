@@ -6,6 +6,7 @@ import ClassCompo from './ClassCompo'
 import ListEx from './ListEx'
 import UseEffectEx from './UseEffectEx'
 import UseContextEx from './UseContextEx'
+import UseRefEx from './UseRefEx'
 
 const jadu = React.createElement('p',{name:"kalal",className:"container",style:{border:'5px solid red'}},'Hello How are you?');
 
@@ -15,7 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ClassCompo/> */}
     {/* <ListEx/> */}
     {/* <UseEffectEx/> */}
-    <UseContextEx/>
+    {/* <UseContextEx/> */}
+    <UseRefEx/>
     </>
 )
 
