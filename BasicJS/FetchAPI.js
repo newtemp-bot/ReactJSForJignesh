@@ -11,9 +11,9 @@ const getTodos = () => {
             }));
             let str='';
             simplifiedData.forEach(e => {
-                str+='<b>'+e.id+'.</b> ';
+                str+='<div class="list"><b>'+e.id+'.</b> ';
                 str+=(e.completed)?'<span><del>'+e.title+'</del></span>':'<span>'+e.title+'</span>';
-                str+='</br>';
+                str+='</div></br>';
             });
             document.getElementById("demo").innerHTML = str;
         })
